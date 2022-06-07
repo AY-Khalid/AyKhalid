@@ -29,6 +29,58 @@ body{
     padding: 5px 0 0 20px;
 }
 
+#theme{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 5px;
+    gap: 20px;
+}
+
+.theme-dot{
+    line-height: 0;
+    padding: 5px;
+}
+
+#original-mode {
+    border: 1px solid black;
+    background-color: rgb(24, 199, 222);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+#dark-mode {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+#light-mode {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+#blue-mode {
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+#red-mode {
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.theme-dot:hover{
+    cursor: pointer;
+}
 
 /*Nav bar Styling*/
 
